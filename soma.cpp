@@ -8,10 +8,12 @@ int main(){
 
 int r,n1,n2;
 
-printf("Digite os valores que deseja somar");
+printf("Digite os valores que deseja somar\n");
+printf("\nDigite o primeiro numero: ");
 scanf("%d",&n1);
+printf("Digite o segundo numero: ");
 scanf("%d",&n2);
 r = somar(n1, n2);
-printf("Resultado: %d", r);
+printf("\nResultado: %d", r);
 
 }
